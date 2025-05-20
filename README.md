@@ -1,6 +1,8 @@
 # CIFAR-10 Image Classification
 
-**92.06% accuracy** on the CIFAR-10 dataset, approaching state-of-the-art performance without using conventional transformers or attention mechanisms. Instead, this architecture implements adaptive pathway weighting through SoftMax normalization, allowing the network to dynamically focus on the most relevant features for each input. [Link to full report](report.md)
+**92.06% accuracy** on the CIFAR-10 dataset, approaching state-of-the-art performance without using conventional transformers or attention mechanisms. Instead, this architecture implements adaptive pathway weighting through SoftMax normalization, allowing the network to dynamically focus on the most relevant features for each input.
+
+[Link to full report](report.md)
 
 ## Results
 
