@@ -13,7 +13,10 @@
 
 The minimal gap between training and test accuracy demonstrates good generalization with limited overfitting, validating the effectiveness of the applied regularization techniques.
 ## Architecture
+### Main Architecture
+![png](img/main_block.png)
 
+Seven intermediate blocks progressively increase feature complexity while alternating between channel expansion and spatial reduction.
 ### Intermediate Block
 ![png](img/intermediate_block.png)
 
@@ -24,10 +27,7 @@ The model uses 7 parallel convolutional pathways with adaptive weighting to extr
 
 Three fully connected layers (256→128→10) with BatchNorm, ReLU, and dropout transform features into classification outputs.
 
-### Main Architecture
-![png](img/main_block.png)
 
-Seven intermediate blocks progressively increase feature complexity while alternating between channel expansion and spatial reduction.
 
 ## Key Training Elements
 
